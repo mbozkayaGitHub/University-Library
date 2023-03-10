@@ -10,7 +10,7 @@ const Login = ({setCurrentUser}) => {
      setCurrentUser("Anthony");
      sessionStorage.setItem("user","Anthony");
      navigate(-1);
-
+ 
    
   };
   return (
@@ -20,7 +20,7 @@ const Login = ({setCurrentUser}) => {
     <StyledForm onSubmit={handleSubmit}>
       <StyledInput type="text" placeholder="Username" required/>
       <StyledInput type="password" placeholder="password" required/>
-      <StyledButton />
+     <StyledButton type="Submit">Login</StyledButton>
     </StyledForm>
   </FormContainer>
  </LoginContainer>
