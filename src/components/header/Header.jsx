@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+   <Header>Header</Header>
   )
 }
 
-export default Header
+export default Header;
