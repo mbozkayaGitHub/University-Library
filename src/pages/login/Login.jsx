@@ -1,15 +1,16 @@
 import React from 'react'
+import { FormContainer, Header, LoginContainer, StyledButton, StyledForm, StyledInput } from './Login.style'
 
 const Login = () => {
   return (
  <LoginContainer>
   <FormContainer>
     <Header>Login Here</Header>
-    <StyleForm>
+    <StyledForm>
       <StyledInput type="text" placeholder="Username" />
       <StyledInput type="password" placeholder="password"/>
       <StyledButton />
-    </StyleForm>
+    </StyledForm>
   </FormContainer>
  </LoginContainer>
   )
