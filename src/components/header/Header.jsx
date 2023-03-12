@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderContainer, HeaderForm, HeaderTitle, SearchInput } from './Header.style';
+import { HeaderButton, HeaderContainer, HeaderForm, HeaderTitle, SearchInput, SelectBox } from './Header.style';
 
 const Header = () => {
   return (
@@ -7,6 +7,13 @@ const Header = () => {
   <HeaderTitle> Books or Magazine</HeaderTitle>
   <HeaderForm>
     <SearchInput type="text" placeholder="name" required />
+
+    <SelectBox>
+      <option value="">All</option>
+    </SelectBox>
+    <HeaderButton type="submit" >
+Search
+    </HeaderButton>
   </HeaderForm>
  </HeaderContainer>
 
