@@ -14,6 +14,7 @@ export const HomeImg = styled.div`
         width: 45%;
     max-height: 50vh;
     border-radius: 1rem; 
+    
        }
 `
 export const MainContainer = styled(Flex)`
